@@ -7,6 +7,7 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
+        "tray",
         "sway/workspaces",
         "sway/mode",
         "sway/scratchpad",
@@ -23,8 +24,6 @@
         "backlight",
         "keyboard-state",
         "clock",
-        "tray",
-        "custom/power"
     ],
     // Modules configuration
     "sway/workspaces": {
@@ -117,11 +116,11 @@
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", ""]
     },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
+        "format": "{percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
