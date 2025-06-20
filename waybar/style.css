@@ -113,7 +113,7 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: transparent;
 }
 
 #battery {
@@ -149,18 +149,18 @@ button:hover {
 }
 
 #power-profiles-daemon.performance {
-    background-color: #f53c3c;
+    background-color: transparent;
     color: #ffffff;
 }
 
 #power-profiles-daemon.balanced {
-    background-color: #2980b9;
+    background-color: transparent;
     color: #ffffff;
 }
 
 #power-profiles-daemon.power-saver {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 label:focus {
@@ -168,8 +168,8 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    background-color: transparent;
+    color: white;
 }
 
 #memory {
@@ -181,7 +181,7 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: transparent;
 }
 
 #network {
@@ -226,7 +226,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    background-color: transparent;
 }
 
 #temperature.critical {
@@ -234,7 +234,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    background-color: transparent;
 }
 
 #tray > .passive {
