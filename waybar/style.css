@@ -1,12 +1,12 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family:"JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    color: #ffffff;
+    background-color: transparent;
+    color: #c6d0f5;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -52,12 +52,6 @@ button:hover {
     background-color: #a37800;
 }
 
-#workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
-}
-
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
@@ -98,9 +92,6 @@ button:hover {
 }
 
 #window,
-#workspaces {
-    margin: 0 4px;
-}
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
